@@ -123,7 +123,7 @@ function addDepartment() {
         name: "department",
         message: "What is the Department that you want to add?"
     }, ]).then(function(res) {
-        connection.query('INSERT INTO department (name) VALUES (?)', [res.department_id],
+        connection.query('INSERT INTO department (name) VALUES (?)', [res.department],
         function(err, data) {
             if (err) throw err;
             console.table(data);
