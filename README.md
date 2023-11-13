@@ -30,13 +30,16 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 
 ## Mock-Up
+Using MySQL, I will create a schema file for the tables to hold our seed data. Then, I will use Javascript to create a connection and give the user access to the neccessary company information. This will allow the user to view all employees and departments as well as add new employees, departments and employee roles. 
 
 ## Technology Used
+MySQL
 Javascript
-node.js v8.2.4
+node
+inquirer@8.2.4
 
 ## Links 
-
+[https://github.com/spencer1227/twin-tweed.git]
 
 ## Video 
 [https://drive.google.com/file/d/10LTGAJ1NkL7DO1jcFX6NoNGP2pA2TD-2/view]
